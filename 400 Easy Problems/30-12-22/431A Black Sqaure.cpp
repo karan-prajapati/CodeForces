@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -7,6 +8,10 @@ int main(){
 	for (int i = 0; i < 4; i++){
 		cin >> test_case_arr[i];
 	}
-
+	string s;
+	cin >> s;
+	for (auto i : test_case_arr){
+	:
+	}
 	return 0;
 }
